@@ -22,5 +22,13 @@ public class Practice
             System.out.println("Pivot int is "+pivot);
 
 
+        //  ? divisors
+        Divisors obj3=new Divisors();
+        int x = 32;
+        boolean check=obj3.exactThreeDivisors(x);
+        if(check)
+            System.out.println(check + " : "+x +" has three divisors");
+        else 
+            System.out.println(check +" : "+x +" doesn't have  three divisors");
     }
 }

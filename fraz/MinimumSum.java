@@ -28,5 +28,8 @@ class MinimumSum
         int secondNumber=digits[1]*10+digits[3];
 
         return firstNumber+secondNumber;
+
+
+        
     }
 }
