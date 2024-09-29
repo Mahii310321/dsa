@@ -9,6 +9,7 @@ public class Divisors
         }
 
         // Check for factors from 2 to the square root of the number
+        // ? i*i<=number can also be used
         for (int i = 2; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
                 return false;  // Not a prime number
