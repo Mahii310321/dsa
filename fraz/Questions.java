@@ -56,6 +56,23 @@ public class Questions
         return count;
     }
 
+    // ?count digits
+    public int countDigits(int num)
+    {
+        int count = 0;
+        int x=num;
+        while(x>0)
+        {
+            int lastDigit = x%10;
+            if(num%lastDigit==0)
+            {
+                count++;
+            }
+            x=x/10;
+        }
+        return count;
+    }
+
     
 
 }

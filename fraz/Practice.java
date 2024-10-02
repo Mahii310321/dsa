@@ -40,5 +40,9 @@ public class Practice
         //  ? num identical pairs
         int pairCount=obj4.numIdenticalPairs(new int []{1,2,3,1,2,5,2});
         System.out.println("num identical pairs : "+pairCount);
+
+        // ? count digits
+        int count=obj4.countDigits(1248);
+        System.out.println("count digits : "+count);
     }
 }
