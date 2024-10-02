@@ -36,5 +36,9 @@ public class Practice
         // ? gcd
         int gcd=obj4.gcd(8,12);
         System.out.println("gcd : "+gcd);
+
+        //  ? num identical pairs
+        int pairCount=obj4.numIdenticalPairs(new int []{1,2,3,1,2,5,2});
+        System.out.println("num identical pairs : "+pairCount);
     }
 }
